@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sessão0{
+  background: #81c644;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.sessaofunci
+{
+    padding: 20px;
+}
+
+.wrapper{
+  margin-top: 50px;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: #c84553;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+/*outro style*/
+
+body{
+        margin:0px;
+        padding: 0px;
+    /*background: url("../img/telalogin.jpg") no-repeat;*/
+         webkit-background-size:cover;
+        background-size: cover;
+        font-family: Calibrir,Tahoma;
+        
+
+}
+.containerr{
+    padding: 60px;
+
+}
+
+#menubar{
+    width: 100%;
+    /*background-color: #161515;*/
+    /*padding-left: 25px;
+    padding-right: 25px;*/
+    background-image: linear-gradient(to bottom,#000000, #363636);
+        font-family: Arial;
+
+}
+
+.espacamento-menu{
+    background-image: linear-gradient(rgb(39, 137, 194),rgb(0, 43, 83));
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.font-menu a{
+    font-size: 20px;
+    font-weight: 600
+}
+
+.efeito_mouse{
+  background-color: #C0C0C0;
+}
+
+
+#logo
+{
+    height: 62px;
+    width: 70px;
+    vertical-align: top;
+}
+#quebrapag
+{
+    height: 300px;
+    width: 100%;
+}
+/#caixaconteudo
+{
+    text-align: center;
+    /*width: 800px;*/
+    
+}
+#comofunciona{
+    max-height: 80px;
+}
+#txttitulocomofunciona
+{
+    font-size: 18px;
+
+}
+#txttitulospassos{
+    font-size: 18px;
+}
+#paragrafopassos{
+    font-size: 14px;
+}
+#txtnossosnumeros{
+    text-align: center;
+    font-size: 20px;
+}
+#txth4{
+    font-size: 17.5px;
+}
+
+.cor{
+    /*color: rgb(39, 137, 194);*/
+    font-size: 40px;
+}
+
+
+.negrito{
+    font-weight: 900;
+}
+
+
+h1 h2 h3 h4{
+        font-family: Calibrir,Tahoma;
+}
+ul
+{
+    list-style-type: none;
+}
+li{
+    /*float: left;*/
+    display: inline;
+    
+}
+li a 
+{
+    /*display: block;*/
+    /*width: 70px;*/
+    /*background-color: #251709;*/
+    text-decoration-color: none;
+    list-style: none;
+    text-decoration: none;
+    /*margin-left: 35px;*/
+    font-size: 18px;
+    color:white;
+    
+    
+}
+ul li:hover{
+    background: #c84553;
+}
+
+#meio{
+    vertical-align: middle;
+}
+.centro{
+    text-align: center;
+}
+#corpreta{
+    background-color: #363636;
+    color: #363636;
+}
+#gradientepreto{
+    background-image: linear-gradient(to bottom,#000000, #363636);
+}
+#gradientevermelho{
+    background-image: linear-gradient(to bottom,#c84553, #363636);
+}
+.esquerda
+{
+    float:left;
+}
+.direita
+{
+    float:right;
+   
+}
+.tamanho{
+    width: 30%
+}
+.sessaofunci
+{
+    padding: 20px;
+}
+.primeiro{
+    width: 100%;
+    background:  #eeeeee;
+}
+.letras{
+    color: #c84553;
+}
+#menuheader{
+    background: transparent;
+    box-shadow: none;
+    width: 100%;
+}
+.secao1{
+    background-color: #FDF5E6;
+}
+
+/* formatções da seção de ondas*/
+.corpo {
+   width: 100%;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background: #fff;
+}
+.curved-div {
+  position: relative;
+  background: #c84553;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden;
+}
+.curved-div svg {
+  display: block;
+}
+.curved-div.upper {
+  background: #fff;
+}
+.curved-div h1 {
+  font-size: 6rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top:0rem;
+}
+.curved-div p {
+  font-size: 1rem;
+  margin:0 5rem 0rem 5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

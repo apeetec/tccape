@@ -1,0 +1,95 @@
+/* novas formatações*/
+header{
+    background-image: url(../img/fundo2.jpg);
+    height: 300px;
+}
+@media screen and (min-width: 960px){
+	header{
+		height: 300px;
+	}
+	.brand-logo{
+	margin-left: 20px;
+	}
+}
+#menuheader{
+	background: transparent;
+	box-shadow: none;
+}
+#logo
+{
+    height: 62px;
+    width: 70px;
+    vertical-align: top;
+}
+#comofunciona{
+    max-height: 80px;
+}
+#txttitulocomofunciona
+{
+    font-size: 18px;
+
+}
+#txttitulospassos{
+    font-size: 18px;
+}
+#paragrafopassos{
+    font-size: 14px;
+}
+#txtnossosnumeros{
+    text-align: center;
+    font-size: 20px;
+}
+#txth4{
+    font-size: 17.5px;
+}
+.brand-logo{
+	margin-top: 20px;
+}
+.desktop{
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.centro{
+    text-align: center;
+}
+.primeiro{
+    background: #eeeeee;
+}
+.sobre{
+    margin-top: 30px;
+}
+.sobre h3{
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+
+}
+.sobre p{
+    font-size: 1.1em;
+    text-align: justify;
+    padding: 10px;
+}
+.sessao{
+    background:#eeeeee;
+}
+
+/*.card {
+  transition: 0.5s;
+  background-image: linear-gradient(to bottom,#DC143C, #c2185b);
+  /*background: #DC143C;
+}*/
+/*.card h5 {
+  padding: 10px 0px;
+}
+.card h5:hover
+{
+  color: #0D4210;
+}
+
+.service .card:hover {
+  transform: scale(1.03);
+  background: #fff;
+}*/
+/*#txtcard{
+    color: #FFE4C4;
+}*/

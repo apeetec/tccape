@@ -1,0 +1,239 @@
+
+body{
+        margin:0px;
+        padding: 0px;
+    /*background: url("../img/telalogin.jpg") no-repeat;*/
+         webkit-background-size:cover;
+        background-size: cover;
+        font-family: Calibrir,Tahoma;
+        
+
+}
+.containerr{
+    padding: 60px;
+
+}
+
+#menubar{
+    width: 100%;
+    /*background-color: #161515;*/
+    /*padding-left: 25px;
+    padding-right: 25px;*/
+    background-image: linear-gradient(to bottom,#000000, #363636);
+        font-family: Arial;
+
+}
+
+.espacamento-menu{
+    background-image: linear-gradient(rgb(39, 137, 194),rgb(0, 43, 83));
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.font-menu a{
+    font-size: 20px;
+    font-weight: 600
+}
+
+.efeito_mouse{
+	background-color: #C0C0C0;
+}
+
+.imgobjeto {
+  height: 315px;
+  width: 180px;
+}
+
+#logo
+{
+    height: 62px;
+    width: 70px;
+    vertical-align: top;
+}
+#quebrapag
+{
+    height: 300px;
+    width: 100%;
+}
+/#caixaconteudo
+{
+    text-align: center;
+    /*width: 800px;*/
+    
+}
+#comofunciona{
+    max-height: 80px;
+}
+#txttitulocomofunciona
+{
+    font-size: 18px;
+
+}
+#txttitulospassos{
+    font-size: 18px;
+}
+#paragrafopassos{
+    font-size: 14px;
+}
+#txtnossosnumeros{
+    text-align: center;
+    font-size: 20px;
+}
+#txth4{
+    font-size: 17.5px;
+}
+
+.cor{
+    /*color: rgb(39, 137, 194);*/
+    font-size: 40px;
+}
+
+
+.negrito{
+    font-weight: 900;
+}
+
+
+h1 h2 h3 h4{
+        font-family: Calibrir,Tahoma;
+}
+ul
+{
+    list-style-type: none;
+}
+li{
+    /*float: left;*/
+    display: inline;
+    
+}
+li a 
+{
+    /*display: block;*/
+    /*width: 70px;*/
+    /*background-color: #251709;*/
+    text-decoration-color: none;
+    list-style: none;
+    text-decoration: none;
+    /*margin-left: 35px;*/
+    font-size: 18px;
+    color:white;
+    
+    
+}
+ul li:hover{
+    background: #c84553;
+}
+
+#meio{
+    vertical-align: middle;
+}
+.centro{
+    text-align: center;
+}
+#corpreta{
+    background-color: #363636;
+    color: #363636;
+}
+#gradientepreto{
+    background-image: linear-gradient(to bottom,#000000, #363636);
+}
+#gradientevermelho{
+    background-image: linear-gradient(to bottom,#c84553, #363636);
+}
+.esquerda
+{
+    float:left;
+}
+.direita
+{
+    float:right;
+   
+}
+.tamanho{
+    width: 30%
+}
+.sessaofunci
+{
+    padding: 20px;
+}
+.secaopesquisa{
+    background-color: #f3e3e5;
+
+}
+
+.primeiro{
+    width: 100%;
+    background:  #eeeeee;
+}
+.letras{
+    color: #c84553;
+}
+#menuheader{
+    background: transparent;
+    box-shadow: none;
+}
+.secao1{
+    background-color: #FDF5E6;
+}
+
+/* formatções da seção de ondas*/
+.corpo {
+   width: 100%;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background: #fff;
+}
+.curved-div {
+  position: relative;
+  background: #c84553;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden;
+}
+.curved-div svg {
+  display: block;
+}
+.curved-div.upper {
+  background: #fff;
+}
+.curved-div h1 {
+  font-size: 6rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top:0rem;
+}
+.curved-div p {
+  font-size: 1rem;
+  margin:0 5rem 0rem 5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sessaoeventos{
+  background: #c84553;
+}
+/*Corpo dos cards de funcionalidades*/
+.card {
+  transition: 0.5s;
+  background: #eee;
+}
+.card h5 {
+  padding: 10px 0px;
+}
+.card:hover i,
+h5 {
+  color: #c2185b;
+}
+
+.service .card:hover {
+  transform: scale(1.03);
+  background: #fff;
+}
+.corvermelha{
+  background-color: #c84553;
+}
+.verde{
+  background-color: #00B82A;
+}
+.verdeescuro{
+  background-color: #096B1F;
+}
+
